@@ -1,0 +1,75 @@
+# 🪙 Bitcoin Price Predictor
+
+A machine learning project to predict future Bitcoin prices using historical data. This tool applies various data preprocessing techniques and predictive models to help analyze trends and make informed forecasts about the cryptocurrency market.
+
+## 📌 Overview
+
+This project uses time series data of Bitcoin prices to train predictive models and forecast future values. The goal is to demonstrate the application of machine learning techniques in the context of financial data analysis.
+
+## 🛠️ Tech Stack
+
+- Python 3.10+
+- Pandas, NumPy – data manipulation
+- Matplotlib, Seaborn – data visualization
+- Scikit-learn – traditional ML models (e.g., Linear Regression)
+- TensorFlow/Keras – LSTM (Long Short-Term Memory) networks (if implemented)
+- yfinance or CSV – for historical Bitcoin data
+
+## 📈 Features
+
+- Load and visualize historical Bitcoin prices
+- Preprocess time series data
+- Train models to predict next-day prices
+- Evaluate model performance using MAE, RMSE
+- Plot actual vs predicted price comparisons
+
+## 🧾 Project Structure
+
+Bitcoin-price-Predictor/
+├── data/                 # Datasets (CSV format or downloaded)
+├── notebooks/            # Jupyter notebooks for EDA and training
+├── models/               # Saved models (if any)
+├── utils/                # Helper scripts
+├── main.py               # Main training & prediction script
+├── requirements.txt      # Dependencies
+└── README.md             # Project documentation
+
+## 🚀 Getting Started
+
+1. Clone the Repository:
+   git clone https://github.com/aaryan21bansal/Bitcoin-price-Predictor.git
+   cd Bitcoin-price-Predictor
+
+2. Install Dependencies:
+   pip install -r requirements.txt
+
+3. Run the Project:
+   python main.py
+
+   Or explore via Jupyter Notebook:
+   jupyter notebook notebooks/bitcoin_predictor.ipynb
+
+## 🧪 Model Evaluation
+
+- MAE (Mean Absolute Error)
+- RMSE (Root Mean Squared Error)
+- Visual plots of actual vs predicted prices
+
+(Plots and results can be found in the notebooks/ folder)
+
+## 📌 To-Do
+
+- [ ] Add real-time prediction using live price feeds
+- [ ] Deploy web UI using Streamlit or Flask
+- [ ] Include more advanced models like ARIMA, Prophet
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repository, make your changes, and open a pull request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Author: Aaryan Bansal
+GitHub: https://github.com/aaryan21bansal
