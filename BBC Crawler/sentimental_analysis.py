@@ -10,7 +10,7 @@ output_directory = 'sentimental_data/'
 
 os.makedirs(output_directory, exist_ok=True)
 
-# Prepare constants
+
 MAX_LENGTH = 50
 PAD_TOKEN = "<|pad|>"
 EOS_TOKEN = "<|endoftext|>"
