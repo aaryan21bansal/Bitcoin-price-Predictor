@@ -32,7 +32,7 @@ keywords = {
 }
 
 processed_headlines = set()
-
+#url
 base_url = "http://dracos.co.uk/made/bbc-news-archive/"
 
 while current_date <= end_date:
@@ -96,3 +96,4 @@ while current_date <= end_date:
 
     current_date += timedelta(days=1)
     time.sleep(1)
+
